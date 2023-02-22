@@ -1,0 +1,137 @@
+
+:root{
+    --baje: #EFA14B;
+    --azul: #3382c1;
+}
+
+@media screen and (min-width: 961px){
+    .project_card{
+        
+        width: 24%;
+        
+        margin: 1%;
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 960px){
+    .project_card{
+        
+        width: 45%;
+        
+        margin: 1%;
+    
+    }
+}
+@media screen and (max-width: 550px){
+    .project_card{
+        
+        width: 90%;
+        
+        display: block;
+        margin: 1% auto;
+        
+    }
+}
+.project_card{
+    padding: 1em;
+    border-radius: 5px;
+
+    border: 2px solid var(--azul);
+}
+.project_card h4{
+    background-color: var(--baje);
+    color: white;
+
+    padding: .4em;
+    
+    font-size: 1.3em;
+
+    margin-bottom: 1.3em;
+    
+}
+
+.project_card p{
+    color: #7a7a7a;
+    margin-bottom: 1em;
+}
+
+.project_card span{
+    font-weight: bold;
+}
+
+.category_text{
+    display: flex;
+    align-items: center;
+}
+
+.category_text span{
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 5px;
+}
+.category_text .infra{
+    background-color: #FFAEBC;
+}
+.category_text .desenvolvimento{
+    background-color: #a0e7e5;
+}
+.category_text .design{
+    background-color: #b4f8c8;
+}
+.category_text .planejamento{
+    background-color: #fbe7c6;
+}
+
+.project_card_actions{
+    margin-top: 1.2em;
+    display: flex;
+    align-items: center;
+}
+.project_card_actions a,
+.project_card_actions button{
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.176);
+    
+
+    font-size: 0.9em;
+    font-weight: bolder;
+
+    padding: .6em 1em;
+    margin-right: 1em;
+
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+}
+.project_card_actions a{
+    color: #38a358;
+
+    
+    background-color: #d4ffe0;
+
+}
+.project_card_actions button{
+    color: #d22b2b;
+
+    background-color: #ffdede;
+
+}
+.project_card_actions a:hover{
+    color: #256f3b;
+
+    background-color: #8affab;
+}
+.project_card_actions button:hover{
+    color: #b32727;
+
+    background-color: #fea7a7;
+}
+.project_card svg{
+    margin-right: .5em;
+}
+.service_card_remove{
+    justify-content: flex-end;
+}

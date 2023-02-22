@@ -1,0 +1,27 @@
+:root{
+    --baje: #EFA14B;
+    --azul: #3382c1;
+  }
+
+.container_btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+.btn{
+    background-color: var(--azul);
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+
+    border: none;
+
+    font-size: 14pt;
+
+   
+}
+.btn:hover{
+    background-color: #005aa3;
+}

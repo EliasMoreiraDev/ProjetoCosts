@@ -1,0 +1,35 @@
+
+
+.project_container{
+    padding: 2em;
+}
+
+.title_container{
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 auto 2em auto;
+    
+}
+@media screen and (max-width: 500px){
+    .title_container{
+        width: 82.5vw;
+        
+    }
+    .title_container h1{
+        text-align: center;
+        width: 45vw;
+        border-right: 1px rgba(128, 127, 127, 0.276) solid;
+        padding-right: 14px;        
+    }
+
+}
+.caixa-projects{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}

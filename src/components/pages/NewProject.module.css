@@ -1,0 +1,11 @@
+.caixa_newProject{
+    width: 451px;
+    margin: 0 auto;
+    padding: 3em;
+}
+.caixa_newProject h1{
+    margin-bottom: 0.5em;
+}
+.caixa_newProject p{
+    color: #7b7b7b;
+}
