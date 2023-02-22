@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ProjetoCosts/static/css/main.522a68cf.css",
+    "main.js": "/ProjetoCosts/static/js/main.43a259c4.js",
+    "static/media/fundo-rodape.png": "/ProjetoCosts/static/media/fundo-rodape.9ccdc84731e691a65c69.png",
+    "index.html": "/ProjetoCosts/index.html",
+    "main.522a68cf.css.map": "/ProjetoCosts/static/css/main.522a68cf.css.map",
+    "main.43a259c4.js.map": "/ProjetoCosts/static/js/main.43a259c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.522a68cf.css",
+    "static/js/main.43a259c4.js"
+  ]
+}
